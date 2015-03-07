@@ -1,9 +1,3 @@
-$icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
-
-// bower:scss
-// @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
-
 // ------------------------------
 // PRE
 // ------------------------------
@@ -22,3 +16,10 @@ $icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import 'modules/buttons.scss';
 @import 'modules/forms.scss';
 @import 'modules/effects.scss';
+
+// ------------------------------
+// COMPONENTS
+// ------------------------------
+
+@import 'components/aside.scss';
+@import 'components/media-queries.scss';
